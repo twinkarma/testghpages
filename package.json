@@ -1,0 +1,23 @@
+{
+  "name": "testghpages",
+  "version": "1.0.0",
+  "description": "Testing gh pages deploy",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev site",
+    "build": "vuepress build site -d docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twinkarma/testghpages.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/twinkarma/testghpages/issues"
+  },
+  "homepage": "https://github.com/twinkarma/testghpages#readme",
+  "dependencies": {
+    "vuepress": "^1.8.1"
+  }
+}
